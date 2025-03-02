@@ -150,6 +150,7 @@ void ignoreCase(std::string& searchFile, std::string& searchString) {
 		throw std::runtime_error("Unable to open the file");
 	}
 	else {
+		bool found = false;
 		std::string line;
 		std::string searchLower = searchString;
 
@@ -159,9 +160,47 @@ void ignoreCase(std::string& searchFile, std::string& searchString) {
 			std::string lineLower = line;
 			toLowerCase(lineLower);
 			
+			
 			if (lineLower.find(searchLower) != std::string::npos) {
 				std::cout << line << std::endl;
+				found = true;
 			}
+		}
+
+		inputFile.close();
+
+		if (!found) {
+			std::cout << "String not found" << std::endl;
+		}
+	}
+}
+
+void allOptions(std::string& searchFile, std::string& searchString) {
+	std::ifstream inputFile(searchFile);
+	if (!inputFile) {
+		throw std::runtime_error("Unable to open the file");
+	}
+	else {
+		std::string line;
+		bool found = false;
+		int lineNumber = 0;
+		int lineOccurences = 0;
+		std::string searchLower = searchString;
+
+		toLowerCase(searchLower);
+
+		while (std::getline(inputFile, line)) {
+			lineNumber++;
+			std::string lineLower = line;
+			toLowerCase(lineLower);
+
+			if (lineLower.find(searchLower) == std::string::npos) {
+				lineOccurences++;
+				std::cout << lineNumber << ":     " << line << std::endl;
+			} 
+		} if (lineOccurences > 0) {
+			std::cout << " " << std::endl;
+			std::cout << "Occurences of lines containing \"" << searchString << "\": " << lineOccurences << std::endl;
 		}
 
 		inputFile.close();
@@ -172,7 +211,6 @@ int main(int argc, char* argv[]) {
 	
 	std::string searchSentence;
 	std::string searchString;
-	std::string option;
 	std::string firstArgument;
 	std::string searchFile;
 
@@ -249,6 +287,15 @@ int main(int argc, char* argv[]) {
 		else if (firstArgument == "-oi") {
 			try {
 				ignoreCase(searchFile, searchString);
+			}
+			catch (const std::runtime_error& err) {
+				std::cerr << "Error: " << err.what() << std::endl;
+				return 1;
+			}
+		}
+		else if (firstArgument == "-olori") {
+			try {
+				allOptions(searchFile, searchString);
 			}
 			catch (const std::runtime_error& err) {
 				std::cerr << "Error: " << err.what() << std::endl;
