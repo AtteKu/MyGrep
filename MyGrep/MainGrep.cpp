@@ -2,6 +2,8 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <cctype>
+#include <algorithm>
 
 void readFile(std::string& searchFile, std::string& searchString) {
 	std::ifstream inputFile(searchFile);
@@ -117,6 +119,55 @@ void readFileAndReturnLineAndOcc(std::string& searchFile, std::string& searchStr
 	}
 }
 
+void readFileAndReverseSearch(std::string& searchFile, std::string& searchString) {
+	std::ifstream inputFile(searchFile);
+	if (!inputFile) {
+		throw std::runtime_error("Unable to open the file");
+	}
+	else {
+		std::string line;
+		int lineNumber = 0;
+
+		while (std::getline(inputFile, line)) {
+			lineNumber++;
+			if (line.find(searchString) == std::string::npos) {
+				//std::cout << lineNumber << ":     " << line << std::endl; // Note to self: When using searchString "following" and this is uncommented you can see line 32 and 245 are missing which means the code works.
+				std::cout << line << std::endl;
+			}
+		}
+		
+		inputFile.close();
+	}
+}
+
+void toLowerCase(std::string& toLowerString) {
+	std::transform(toLowerString.begin(), toLowerString.end(), toLowerString.begin(), ::tolower);
+}
+
+void ignoreCase(std::string& searchFile, std::string& searchString) {
+	std::ifstream inputFile(searchFile);
+	if (!inputFile) {
+		throw std::runtime_error("Unable to open the file");
+	}
+	else {
+		std::string line;
+		std::string searchLower = searchString;
+
+		toLowerCase(searchLower);
+
+		while (std::getline(inputFile, line)) {
+			std::string lineLower = line;
+			toLowerCase(lineLower);
+			
+			if (lineLower.find(searchLower) != std::string::npos) {
+				std::cout << line << std::endl;
+			}
+		}
+
+		inputFile.close();
+	}
+}
+
 int main(int argc, char* argv[]) {
 	
 	std::string searchSentence;
@@ -180,6 +231,24 @@ int main(int argc, char* argv[]) {
 		else if (firstArgument == "-olo") {
 			try {
 				readFileAndReturnLineAndOcc(searchFile, searchString);
+			}
+			catch (const std::runtime_error& err) {
+				std::cerr << "Error: " << err.what() << std::endl;
+				return 1;
+			}
+		}
+		else if (firstArgument == "-or") {
+			try {
+				readFileAndReverseSearch(searchFile, searchString);
+			}
+			catch (const std::runtime_error& err) {
+				std::cerr << "Error: " << err.what() << std::endl;
+				return 1;
+			}
+		}
+		else if (firstArgument == "-oi") {
+			try {
+				ignoreCase(searchFile, searchString);
 			}
 			catch (const std::runtime_error& err) {
 				std::cerr << "Error: " << err.what() << std::endl;
