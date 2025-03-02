@@ -84,6 +84,39 @@ void readFileAndReturnLineAmount(std::string& searchFile, std::string& searchStr
 	}
 }
 
+void readFileAndReturnLineAndOcc(std::string& searchFile, std::string& searchString) {
+	std::ifstream inputFile(searchFile);
+	if (!inputFile) {
+		throw std::runtime_error("Unable to open the file");
+	}
+	else {
+		std::string line;
+		bool found = false;
+		int lineNumber = 0;
+		int lineOccurences = 0;
+
+		while (std::getline(inputFile, line)) {
+			lineNumber++;
+			if (line.find(searchString) != std::string::npos) {
+				lineOccurences++;
+				std::cout << lineNumber << ":     " << line << std::endl;
+				std::cout << " " << std::endl;
+				found = true;
+			}
+			
+			
+		}
+		if (lineOccurences > 0) {
+			std::cout << "Occurences of lines containing \"" << searchString << "\": " << lineOccurences << std::endl;
+		}
+		inputFile.close();
+
+		if (!found) {
+			std::cout << "String not found" << std::endl;
+		}
+	}
+}
+
 int main(int argc, char* argv[]) {
 	
 	std::string searchSentence;
@@ -135,15 +168,24 @@ int main(int argc, char* argv[]) {
 				return 1;
 			}
 		}
-			else if (firstArgument == "-oo") {
-				try {
-					readFileAndReturnLineAmount(searchFile, searchString);
-				}
-				catch (const std::runtime_error& err) {
-					std::cerr << "Error: " << err.what() << std::endl;
-					return 1;
-				}
+		else if (firstArgument == "-oo") {
+			try {
+				readFileAndReturnLineAmount(searchFile, searchString);
 			}
+			catch (const std::runtime_error& err) {
+				std::cerr << "Error: " << err.what() << std::endl;
+				return 1;
+			}
+		}
+		else if (firstArgument == "-olo") {
+			try {
+				readFileAndReturnLineAndOcc(searchFile, searchString);
+			}
+			catch (const std::runtime_error& err) {
+				std::cerr << "Error: " << err.what() << std::endl;
+				return 1;
+			}
+		}
 		
 		
 	}
