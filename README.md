@@ -51,7 +51,7 @@ ignoreCase-aliohjelma suoritetaan, kun käyttäjä antaa neljä argumenttia ohje
 
 Kuva 6. ignoreCase-aliohjelman toiminta.
 
-allOptions-aliohjelma suoritetaan, kun käyttäjä antaa neljä argumenttia ohjel-malla seuraavassa muodossa: MyGrep.exe <-olori> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma suorittaa kaikkien muiden optioiden toiminnot kerralla. Kuvassa rivinumerot, käänteishaku ”folloWING”-merkkijonolle, rivien määrä, jolta merkkijono löytyi. Ohjelma ottaa myös vastaan erikokoiset kirjaimet.
+allOptions-aliohjelma suoritetaan, kun käyttäjä antaa neljä argumenttia ohjelmalla seuraavassa muodossa: MyGrep.exe <-olori> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma suorittaa kaikkien muiden optioiden toiminnot kerralla. Kuvassa rivinumerot, käänteishaku ”folloWING”-merkkijonolle, rivien määrä, jolta merkkijono löytyi. Ohjelma ottaa myös vastaan erikokoiset kirjaimet.
 
 ![kuva](https://github.com/user-attachments/assets/9301c03e-6a9a-4031-8903-b0bebfe42492)
 ![kuva](https://github.com/user-attachments/assets/e0bca343-1914-40ce-8929-91275ba2e597)
@@ -61,7 +61,7 @@ Kuva 7. allOptions-aliohjelman toiminta.
 
 1.1.1	Poikkeuskäsittelyt ohjelmassa
 
-Kun tiedostoa ei pystytä avaamaan syystä tai toisesta, ohjelma palauttaa vir-heilmoituksen. 
+Kun tiedostoa ei pystytä avaamaan syystä tai toisesta, ohjelma palauttaa virheilmoituksen. 
 
 ![kuva](https://github.com/user-attachments/assets/d3c7ee5c-055d-4c39-94a7-a57a5eef5012)
 
