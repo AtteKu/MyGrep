@@ -40,7 +40,7 @@ Kuva 1. readFile-aliohjelman toiminta.
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/f360fc32-3939-4c00-9a86-29db3ff5ea53)
+!\[kuva](IMAGES/IMAGE2.png)
 
 Kuva 2. readFileAndReturnLine-aliohjelman toiminta.
 
@@ -51,7 +51,7 @@ MyGrep.exe <-oo> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma palauttaa n
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/5361547c-8746-4277-8f20-2a0a33d37f77)
+!\[kuva](IMAGES/IMAGE3.png)
 
 Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
@@ -61,7 +61,7 @@ Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/41e0b79c-2d39-446a-911c-876a3579e0cc)
+!\[kuva](IMAGES/IMAGE4.png)
 
 Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
@@ -71,7 +71,7 @@ Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/686d7d7a-fd7a-4c29-b6f5-29253ed18286)
+!\[kuva](IMAGES/IMAGE5.png)
 
 Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
 
@@ -85,7 +85,7 @@ Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/dadd7937-cd10-468b-8e28-7661783de901)
+!\[kuva](IMAGES/IMAGE6.png)
 
 Kuva 6. ignoreCase-aliohjelman toiminta.
 
@@ -95,8 +95,8 @@ Kuva 6. ignoreCase-aliohjelman toiminta.
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/9301c03e-6a9a-4031-8903-b0bebfe42492)
-!\[kuva](https://github.com/user-attachments/assets/e0bca343-1914-40ce-8929-91275ba2e597)
+!\[kuva](IMAGES/IMAGE7.png)
+!\[kuva](IMAGES/IMAGE8.png)
 
 Kuva 7. allOptions-aliohjelman toiminta.
 
@@ -110,7 +110,7 @@ Kun tiedostoa ei pystytä avaamaan syystä tai toisesta, ohjelma palauttaa virhe
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/d3c7ee5c-055d-4c39-94a7-a57a5eef5012)
+!\[kuva](IMAGES/IMAGE9.png)
 
 Kuva 8. Virheilmoitus ohjelmassa.
 
