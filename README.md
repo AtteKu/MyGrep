@@ -37,6 +37,7 @@ Kuva 1. readFile-aliohjelman toiminta.
 
 
 
+
 **readFileAndReturnLine-aliohjelma** suoritetaan, jos käyttäjä antaa neljä argumenttia ohjelmalle muodossa: MyGrep.exe <-ol> <Haettava merkkijono> <Tiedosto>.  Aliohjelma tulostaa rivit, joilta kysytty merkkijono löytyy.
 
 
@@ -45,6 +46,7 @@ Kuva 1. readFile-aliohjelman toiminta.
 
 
 Kuva 2. readFileAndReturnLine-aliohjelman toiminta.
+
 
 
 
@@ -59,6 +61,7 @@ Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
 
 
+
 **readFileAndReturnLineAndOcc-aliohjelma** suoritetaan, jos käyttäjä antaa neljä argumenttia ohjelmalle muodossa: MyGrep.exe <-olo> <Haettava merkki-jono> <Tiedosto>. Aliohjelma palauttaa sekä rivit, joilta merkkijono löytyi, että merkkijonojen kokonaismäärän.
 
 
@@ -70,6 +73,7 @@ Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
 
 
+
 **readFileAndReverseSearch-aliohjelma** suoritetaan käyttäjän antaessa neljä argumenttia ohjelmalla seuraavassa muodossa: MyGrep.exe <-or> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma tekee käänteishaun annetulle merkkijonolle eli palauttaa kaikki rivit, joilla ei ole argumentiksi annettua merkkijonoa.
 
 
@@ -78,6 +82,7 @@ Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
 
 Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
+
 
 
 
@@ -96,6 +101,7 @@ Kuva 6. ignoreCase-aliohjelman toiminta.
 
 
 
+
 **allOptions-aliohjelma** suoritetaan, kun käyttäjä antaa neljä argumenttia ohjelmalla seuraavassa muodossa: MyGrep.exe <-olori> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma suorittaa kaikkien muiden optioiden toiminnot kerralla. Kuvassa rivinumerot, käänteishaku ”folloWING”-merkkijonolle, rivien määrä, jolta merkkijono löytyi. Ohjelma ottaa myös vastaan erikokoiset kirjaimet.
 
 
@@ -105,6 +111,7 @@ Kuva 6. ignoreCase-aliohjelman toiminta.
 
 
 Kuva 7. allOptions-aliohjelman toiminta.
+
 
 
 
