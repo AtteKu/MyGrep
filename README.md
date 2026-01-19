@@ -30,7 +30,7 @@ Kun pääohjelmassa tapahtunut valinta on tehty, siirrytään aliohjelmiin. Joka
 
 
 
-!\[kuva](https://github.com/user-attachments/assets/2a2e9ac9-f775-4b3b-a9cc-bba669ba927e)
+!\[kuva](IMAGES/IMAGE1.png)
 
 Kuva 1. readFile-aliohjelman toiminta.
 
