@@ -30,7 +30,8 @@ Kun pääohjelmassa tapahtunut valinta on tehty, siirrytään aliohjelmiin. Joka
 
 
 
-!\[kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE1.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE1.png?raw=1)
+
 
 Kuva 1. readFile-aliohjelman toiminta.
 
