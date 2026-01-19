@@ -367,5 +367,4 @@ FodyWeavers.xsd
 *.vcxproj
 *.vcxproj.filters
 
-# directories
-IMAGES/
+
