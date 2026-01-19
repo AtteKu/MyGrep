@@ -41,7 +41,8 @@ Kuva 1. readFile-aliohjelman toiminta.
 
 
 
-!\[kuva](/IMAGES/IMAGE2.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE2.png?raw=1)
+
 
 Kuva 2. readFileAndReturnLine-aliohjelman toiminta.
 
@@ -51,8 +52,8 @@ Kuva 2. readFileAndReturnLine-aliohjelman toiminta.
 MyGrep.exe <-oo> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma palauttaa numeron, joka osoittaa kuinka monta kertaa käyttäjän antama merkkijono löydettiin annetusta tiedostosta.
 
 
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE3.png?raw=1)
 
-!\[kuva](/IMAGES/IMAGE3.png)
 
 Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
@@ -62,7 +63,8 @@ Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
 
 
-!\[kuva](/IMAGES/IMAGE4.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE4.png?raw=1)
+
 
 Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
@@ -72,7 +74,8 @@ Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
 
 
-!\[kuva](/IMAGES/IMAGE5.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE5.png?raw=1)
+
 
 Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
 
@@ -86,7 +89,8 @@ Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
 
 
 
-!\[kuva](/IMAGES/IMAGE6.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE6.png?raw=1)
+
 
 Kuva 6. ignoreCase-aliohjelman toiminta.
 
@@ -96,8 +100,9 @@ Kuva 6. ignoreCase-aliohjelman toiminta.
 
 
 
-!\[kuva](/IMAGES/IMAGE7.png)
-!\[kuva](/IMAGES/IMAGE8.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE7.png?raw=1)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE8.png?raw=1)
+
 
 Kuva 7. allOptions-aliohjelman toiminta.
 
@@ -111,7 +116,7 @@ Kun tiedostoa ei pystytä avaamaan syystä tai toisesta, ohjelma palauttaa virhe
 
 
 
-!\[kuva](/IMAGES/IMAGE9.png)
+![kuva](https://raw.githubusercontent.com/AtteKu/MyGrep/master/IMAGES/IMAGE9.png?raw=1)
 
 Kuva 8. Virheilmoitus ohjelmassa.
 
