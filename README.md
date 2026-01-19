@@ -30,7 +30,7 @@ Kun pääohjelmassa tapahtunut valinta on tehty, siirrytään aliohjelmiin. Joka
 
 
 
-!\[kuva](IMAGES/IMAGE1.png)
+!\[kuva](/IMAGES/IMAGE1.png)
 
 Kuva 1. readFile-aliohjelman toiminta.
 
@@ -40,7 +40,7 @@ Kuva 1. readFile-aliohjelman toiminta.
 
 
 
-!\[kuva](IMAGES/IMAGE2.png)
+!\[kuva](/IMAGES/IMAGE2.png)
 
 Kuva 2. readFileAndReturnLine-aliohjelman toiminta.
 
@@ -51,7 +51,7 @@ MyGrep.exe <-oo> <Haettava merkkijono> <Tiedosto>. Tämä aliohjelma palauttaa n
 
 
 
-!\[kuva](IMAGES/IMAGE3.png)
+!\[kuva](/IMAGES/IMAGE3.png)
 
 Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
@@ -61,7 +61,7 @@ Kuva 3. readFileAndReturnLineAmount-aliohjelman toiminta.
 
 
 
-!\[kuva](IMAGES/IMAGE4.png)
+!\[kuva](/IMAGES/IMAGE4.png)
 
 Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
@@ -71,7 +71,7 @@ Kuva 4. readFileAndReturnLineAndOcc-aliohjelman toiminta.
 
 
 
-!\[kuva](IMAGES/IMAGE5.png)
+!\[kuva](/IMAGES/IMAGE5.png)
 
 Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
 
@@ -85,7 +85,7 @@ Kuva 5. readFileAndReverseSearch-aliohjelman toiminta.
 
 
 
-!\[kuva](IMAGES/IMAGE6.png)
+!\[kuva](/IMAGES/IMAGE6.png)
 
 Kuva 6. ignoreCase-aliohjelman toiminta.
 
@@ -95,8 +95,8 @@ Kuva 6. ignoreCase-aliohjelman toiminta.
 
 
 
-!\[kuva](IMAGES/IMAGE7.png)
-!\[kuva](IMAGES/IMAGE8.png)
+!\[kuva](/IMAGES/IMAGE7.png)
+!\[kuva](/IMAGES/IMAGE8.png)
 
 Kuva 7. allOptions-aliohjelman toiminta.
 
@@ -110,7 +110,7 @@ Kun tiedostoa ei pystytä avaamaan syystä tai toisesta, ohjelma palauttaa virhe
 
 
 
-!\[kuva](IMAGES/IMAGE9.png)
+!\[kuva](/IMAGES/IMAGE9.png)
 
 Kuva 8. Virheilmoitus ohjelmassa.
 
